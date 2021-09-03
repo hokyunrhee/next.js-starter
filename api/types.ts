@@ -1,3 +1,3 @@
-// read
+// query
 
-// write
+// mutation
