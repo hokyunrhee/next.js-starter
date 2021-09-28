@@ -4,13 +4,15 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
+    jest: true,
   },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:testing-library/react',
+    'plugin:jest-dom/recommended',
     'plugin:@typescript-eslint/recommended', // 해당 플러그인의 권장 규칙을 사용합니다.
-    'plugin:cypress/recommended',
     'plugin:prettier/recommended', // plugin과 eslint-config-prettier 설정을 한번에 합니다.
   ],
   parser: '@typescript-eslint/parser', // ESLint 파서를 지정합니다.
